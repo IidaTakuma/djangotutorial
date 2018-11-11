@@ -1,6 +1,31 @@
-li a {
-    color: green;
+
+p a{
+    color:#fff;
+    font-size:22px;
+    text-decoration: none;
 }
-/* body {
-    background: white url("images/image1.jpg") no-repeat;
+
+/* header {
+  background-color: #000;
 } */
+.sitename{
+  background-color: #000;
+  padding-top:15px;
+  padding-bottom:10px;
+  padding-left: 10px;
+  /* margin-top:0px; */
+}
+
+.sitename a{
+  color:#fff;
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  /* padding-top:30px;
+  padding-bottom:5px;
+  padding-left:10px; */
+  /* font-size:30px; */
+}
+body {
+    background: white url("images/backgroundImage.jpg") no-repeat;
+}

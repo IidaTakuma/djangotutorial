@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+<html>
+
+<head>
+  <title>DjangoTutorial</title>
+</head>
+
+<body>
+  <header>
+    <div class="sitename">
+      <a href="/polls/">DjangoTutorialPolls</a>
+    </div>
+  </header>
+
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>
